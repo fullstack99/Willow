@@ -1,0 +1,2524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* WillowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WillowTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* WillowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WillowTests.m */; };
+		8C019E0313BFB705C905CCEE /* Pods_Willow_WillowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968C47D042A3C7CCB16EDE38 /* Pods_Willow_WillowTests.framework */; };
+		8E1E0E032698FAD0009B4A68 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1E0E022698FAD0009B4A68 /* Launch Screen.storyboard */; };
+		8EAC801F26647693007A6118 /* Willow.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 307F609025BF37D700314BAC /* Willow.entitlements */; };
+		B785395A1A008B773C74A2E8 /* Pods_Willow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A33C9CA83E4B1EFFEDCA667 /* Pods_Willow.framework */; };
+		B971B496CACA835E81C333CF /* Pods_Willow_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917134AE178E958CE58360F3 /* Pods_Willow_tvOS.framework */; };
+		E9ACC737D140C7C7FBE5A12C /* Pods_Willow_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8084B816226F4DE0FDE5B5CB /* Pods_Willow_tvOSTests.framework */; };
+		FA3E6BE6258E17DD001FD4DC /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA3E6BE5258E17DD001FD4DC /* icomoon.ttf */; };
+		FA45A1352562EAF50012D5BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA45A1342562EAF50012D5BB /* Images.xcassets */; };
+		FA6D7E08257943580089DCB4 /* NewYorkSmall-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DD4257943510089DCB4 /* NewYorkSmall-Heavy.otf */; };
+		FA6D7E09257943580089DCB4 /* NewYorkExtraLarge-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DD5257943510089DCB4 /* NewYorkExtraLarge-Bold.otf */; };
+		FA6D7E0A257943580089DCB4 /* NewYorkSmall-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DD6257943510089DCB4 /* NewYorkSmall-BlackItalic.otf */; };
+		FA6D7E0B257943580089DCB4 /* NewYorkMedium-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DD7257943510089DCB4 /* NewYorkMedium-BoldItalic.otf */; };
+		FA6D7E0D257943580089DCB4 /* NewYorkExtraLarge-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DD9257943510089DCB4 /* NewYorkExtraLarge-Regular.otf */; };
+		FA6D7E0E257943580089DCB4 /* NewYorkSmall-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DDA257943520089DCB4 /* NewYorkSmall-Regular.otf */; };
+		FA6D7E0F257943580089DCB4 /* NewYorkLarge-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DDB257943520089DCB4 /* NewYorkLarge-RegularItalic.otf */; };
+		FA6D7E10257943580089DCB4 /* NewYorkLarge-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DDC257943520089DCB4 /* NewYorkLarge-SemiboldItalic.otf */; };
+		FA6D7E11257943580089DCB4 /* NewYorkSmall-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DDD257943520089DCB4 /* NewYorkSmall-BoldItalic.otf */; };
+		FA6D7E12257943580089DCB4 /* NewYorkMedium-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DDE257943520089DCB4 /* NewYorkMedium-Semibold.otf */; };
+		FA6D7E13257943580089DCB4 /* NewYorkSmall-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DDF257943520089DCB4 /* NewYorkSmall-Bold.otf */; };
+		FA6D7E14257943580089DCB4 /* NewYorkMedium-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DE0257943520089DCB4 /* NewYorkMedium-Bold.otf */; };
+		FA6D7E15257943580089DCB4 /* NewYorkLarge-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DE1257943530089DCB4 /* NewYorkLarge-Bold.otf */; };
+		FA6D7E16257943580089DCB4 /* NewYorkExtraLarge-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DE2257943530089DCB4 /* NewYorkExtraLarge-MediumItalic.otf */; };
+		FA6D7E17257943580089DCB4 /* NewYorkMedium-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DE3257943530089DCB4 /* NewYorkMedium-Heavy.otf */; };
+		FA6D7E18257943580089DCB4 /* NewYorkLarge-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DE4257943530089DCB4 /* NewYorkLarge-Black.otf */; };
+		FA6D7E19257943580089DCB4 /* NewYorkMedium-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DE5257943530089DCB4 /* NewYorkMedium-Medium.otf */; };
+		FA6D7E1A257943580089DCB4 /* NewYorkSmall-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DE6257943530089DCB4 /* NewYorkSmall-HeavyItalic.otf */; };
+		FA6D7E1B257943580089DCB4 /* NewYorkMedium-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DE7257943530089DCB4 /* NewYorkMedium-MediumItalic.otf */; };
+		FA6D7E1C257943580089DCB4 /* NewYorkMedium-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DE8257943530089DCB4 /* NewYorkMedium-Regular.otf */; };
+		FA6D7E1D257943580089DCB4 /* NewYorkExtraLarge-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DE9257943540089DCB4 /* NewYorkExtraLarge-BlackItalic.otf */; };
+		FA6D7E1E257943580089DCB4 /* NewYorkMedium-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DEA257943540089DCB4 /* NewYorkMedium-RegularItalic.otf */; };
+		FA6D7E1F257943580089DCB4 /* NewYorkExtraLarge-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DEB257943540089DCB4 /* NewYorkExtraLarge-RegularItalic.otf */; };
+		FA6D7E20257943580089DCB4 /* NewYorkLarge-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DEC257943540089DCB4 /* NewYorkLarge-Regular.otf */; };
+		FA6D7E21257943580089DCB4 /* NewYorkMedium-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DED257943540089DCB4 /* NewYorkMedium-Black.otf */; };
+		FA6D7E22257943580089DCB4 /* NewYorkSmall-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DEE257943540089DCB4 /* NewYorkSmall-Semibold.otf */; };
+		FA6D7E23257943580089DCB4 /* NewYorkLarge-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DEF257943540089DCB4 /* NewYorkLarge-Semibold.otf */; };
+		FA6D7E24257943580089DCB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DF0257943540089DCB4 /* Images.xcassets */; };
+		FA6D7E25257943580089DCB4 /* NewYorkLarge-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DF1257943550089DCB4 /* NewYorkLarge-BoldItalic.otf */; };
+		FA6D7E26257943580089DCB4 /* NewYorkSmall-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DF2257943550089DCB4 /* NewYorkSmall-MediumItalic.otf */; };
+		FA6D7E27257943580089DCB4 /* NewYorkExtraLarge-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DF3257943550089DCB4 /* NewYorkExtraLarge-SemiboldItalic.otf */; };
+		FA6D7E28257943580089DCB4 /* NewYorkExtraLarge-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DF4257943550089DCB4 /* NewYorkExtraLarge-BoldItalic.otf */; };
+		FA6D7E29257943580089DCB4 /* NewYorkExtraLarge-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DF5257943550089DCB4 /* NewYorkExtraLarge-HeavyItalic.otf */; };
+		FA6D7E2A257943580089DCB4 /* NewYorkLarge-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DF6257943550089DCB4 /* NewYorkLarge-Medium.otf */; };
+		FA6D7E2B257943580089DCB4 /* NewYorkMedium-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DF7257943550089DCB4 /* NewYorkMedium-BlackItalic.otf */; };
+		FA6D7E2C257943580089DCB4 /* NewYorkItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DF8257943560089DCB4 /* NewYorkItalic.ttf */; };
+		FA6D7E2D257943580089DCB4 /* NewYorkLarge-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DF9257943560089DCB4 /* NewYorkLarge-Heavy.otf */; };
+		FA6D7E2E257943580089DCB4 /* NewYorkSmall-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DFA257943560089DCB4 /* NewYorkSmall-Black.otf */; };
+		FA6D7E2F257943580089DCB4 /* NewYorkMedium-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DFB257943560089DCB4 /* NewYorkMedium-SemiboldItalic.otf */; };
+		FA6D7E30257943580089DCB4 /* NewYorkLarge-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DFC257943560089DCB4 /* NewYorkLarge-MediumItalic.otf */; };
+		FA6D7E31257943580089DCB4 /* NewYorkLarge-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DFD257943560089DCB4 /* NewYorkLarge-HeavyItalic.otf */; };
+		FA6D7E32257943580089DCB4 /* NewYorkExtraLarge-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DFE257943560089DCB4 /* NewYorkExtraLarge-Black.otf */; };
+		FA6D7E33257943580089DCB4 /* NewYorkMedium-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7DFF257943560089DCB4 /* NewYorkMedium-HeavyItalic.otf */; };
+		FA6D7E34257943580089DCB4 /* NewYorkSmall-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7E00257943570089DCB4 /* NewYorkSmall-Medium.otf */; };
+		FA6D7E35257943580089DCB4 /* NewYorkLarge-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7E01257943570089DCB4 /* NewYorkLarge-BlackItalic.otf */; };
+		FA6D7E36257943580089DCB4 /* NewYorkSmall-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7E02257943570089DCB4 /* NewYorkSmall-RegularItalic.otf */; };
+		FA6D7E37257943580089DCB4 /* NewYorkSmall-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7E03257943570089DCB4 /* NewYorkSmall-SemiboldItalic.otf */; };
+		FA6D7E38257943580089DCB4 /* NewYorkExtraLarge-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7E04257943570089DCB4 /* NewYorkExtraLarge-Heavy.otf */; };
+		FA6D7E39257943580089DCB4 /* NewYorkExtraLarge-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7E05257943570089DCB4 /* NewYorkExtraLarge-Semibold.otf */; };
+		FA6D7E3A257943580089DCB4 /* NewYork.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7E06257943570089DCB4 /* NewYork.ttf */; };
+		FA6D7E3B257943580089DCB4 /* NewYorkExtraLarge-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA6D7E07257943580089DCB4 /* NewYorkExtraLarge-Medium.otf */; };
+		FAA5C84C256D6A5000FC2BE9 /* Mulish-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C83C256D6A4D00FC2BE9 /* Mulish-BlackItalic.ttf */; };
+		FAA5C84D256D6A5000FC2BE9 /* Mulish-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C83D256D6A4D00FC2BE9 /* Mulish-SemiBold.ttf */; };
+		FAA5C84E256D6A5000FC2BE9 /* Mulish-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C83E256D6A4E00FC2BE9 /* Mulish-ExtraBold.ttf */; };
+		FAA5C84F256D6A5000FC2BE9 /* Mulish-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C83F256D6A4E00FC2BE9 /* Mulish-ExtraLight.ttf */; };
+		FAA5C850256D6A5000FC2BE9 /* Mulish-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C840256D6A4E00FC2BE9 /* Mulish-Light.ttf */; };
+		FAA5C851256D6A5000FC2BE9 /* Mulish-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C841256D6A4E00FC2BE9 /* Mulish-Italic.ttf */; };
+		FAA5C852256D6A5000FC2BE9 /* Mulish-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C842256D6A4E00FC2BE9 /* Mulish-Bold.ttf */; };
+		FAA5C853256D6A5000FC2BE9 /* Mulish-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C843256D6A4E00FC2BE9 /* Mulish-LightItalic.ttf */; };
+		FAA5C854256D6A5000FC2BE9 /* Mulish-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C844256D6A4E00FC2BE9 /* Mulish-MediumItalic.ttf */; };
+		FAA5C855256D6A5000FC2BE9 /* Mulish-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C845256D6A4E00FC2BE9 /* Mulish-Medium.ttf */; };
+		FAA5C856256D6A5000FC2BE9 /* Mulish-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C846256D6A4F00FC2BE9 /* Mulish-ExtraBoldItalic.ttf */; };
+		FAA5C857256D6A5000FC2BE9 /* Mulish-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C847256D6A4F00FC2BE9 /* Mulish-BoldItalic.ttf */; };
+		FAA5C858256D6A5000FC2BE9 /* Mulish-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C848256D6A4F00FC2BE9 /* Mulish-Black.ttf */; };
+		FAA5C859256D6A5000FC2BE9 /* Mulish-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C849256D6A4F00FC2BE9 /* Mulish-ExtraLightItalic.ttf */; };
+		FAA5C85A256D6A5000FC2BE9 /* Mulish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C84A256D6A4F00FC2BE9 /* Mulish-Regular.ttf */; };
+		FAA5C85B256D6A5000FC2BE9 /* Mulish-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C84B256D6A4F00FC2BE9 /* Mulish-SemiBoldItalic.ttf */; };
+		FAC54CEE2566E35D00C3347F /* Logo - 2:1 - white on transparent@2000w.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC54CED2566E35D00C3347F /* Logo - 2:1 - white on transparent@2000w.png */; };
+		FAC54D172566ED7D00C3347F /* NeutraText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAC54CF02566E80200C3347F /* NeutraText-Bold.otf */; };
+		FAC54D182566ED7D00C3347F /* NeutraText-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAC54CF22566E80200C3347F /* NeutraText-BoldItalic.otf */; };
+		FAC54D192566ED7D00C3347F /* NeutraText-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAC54CEF2566E80200C3347F /* NeutraText-Book.otf */; };
+		FAC54D1A2566ED7D00C3347F /* NeutraText-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAC54CF12566E80200C3347F /* NeutraText-BookItalic.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Willow;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "Willow-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* WillowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WillowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* WillowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WillowTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Willow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Willow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Willow/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Willow/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Willow/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Willow/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Willow-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Willow-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Willow-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Willow-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		307F609025BF37D700314BAC /* Willow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Willow.entitlements; path = Willow/Willow.entitlements; sourceTree = "<group>"; };
+		51E32DE7D0570389CAEE62BD /* Pods-Willow.stage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Willow.stage.xcconfig"; path = "Target Support Files/Pods-Willow/Pods-Willow.stage.xcconfig"; sourceTree = "<group>"; };
+		60D5812865F6E4AA4A7E1548 /* Pods-Willow-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Willow-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Willow-tvOS/Pods-Willow-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		681D81DFA71A36C2D3C3B8CE /* Pods-Willow-WillowTests.stage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Willow-WillowTests.stage.xcconfig"; path = "Target Support Files/Pods-Willow-WillowTests/Pods-Willow-WillowTests.stage.xcconfig"; sourceTree = "<group>"; };
+		7575B88254700415B280D4E1 /* Pods-Willow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Willow.debug.xcconfig"; path = "Target Support Files/Pods-Willow/Pods-Willow.debug.xcconfig"; sourceTree = "<group>"; };
+		79ADE8A5A7E4F0963BBEF64F /* Pods-Willow-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Willow-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Willow-tvOS/Pods-Willow-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		7A33C9CA83E4B1EFFEDCA667 /* Pods_Willow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Willow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF046A69CC93C85AE0C2DCC /* Pods-Willow-WillowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Willow-WillowTests.release.xcconfig"; path = "Target Support Files/Pods-Willow-WillowTests/Pods-Willow-WillowTests.release.xcconfig"; sourceTree = "<group>"; };
+		8084B816226F4DE0FDE5B5CB /* Pods_Willow_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Willow_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C0EBE88A973AE1ECE41CC1 /* Pods-Willow-tvOSTests.stage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Willow-tvOSTests.stage.xcconfig"; path = "Target Support Files/Pods-Willow-tvOSTests/Pods-Willow-tvOSTests.stage.xcconfig"; sourceTree = "<group>"; };
+		8E1E0E022698FAD0009B4A68 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		8EB7789C25DD612D0090862F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8EB7789E25DD612D0090862F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8ECAA81B265F47F100ABCF79 /* WillowDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = WillowDebug.entitlements; path = Willow/WillowDebug.entitlements; sourceTree = "<group>"; };
+		8ECAA81C265F489700ABCF79 /* WillowRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = WillowRelease.entitlements; path = Willow/WillowRelease.entitlements; sourceTree = "<group>"; };
+		917134AE178E958CE58360F3 /* Pods_Willow_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Willow_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		968C47D042A3C7CCB16EDE38 /* Pods_Willow_WillowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Willow_WillowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97BBA327F6756DC58CBB0342 /* Pods-Willow-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Willow-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Willow-tvOSTests/Pods-Willow-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9BE25354B1F85730B998723 /* Pods-Willow-tvOS.stage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Willow-tvOS.stage.xcconfig"; path = "Target Support Files/Pods-Willow-tvOS/Pods-Willow-tvOS.stage.xcconfig"; sourceTree = "<group>"; };
+		E451139E8A907F26A0ED7BFA /* Pods-Willow-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Willow-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Willow-tvOSTests/Pods-Willow-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F0737DEE3AACD9CEDEA2E70D /* Pods-Willow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Willow.release.xcconfig"; path = "Target Support Files/Pods-Willow/Pods-Willow.release.xcconfig"; sourceTree = "<group>"; };
+		FA3E6BE5258E17DD001FD4DC /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = icomoon.ttf; path = Willow/fonts/icomoon.ttf; sourceTree = "<group>"; };
+		FA45A1342562EAF50012D5BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Willow/Images.xcassets; sourceTree = "<group>"; };
+		FA6D7DD4257943510089DCB4 /* NewYorkSmall-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkSmall-Heavy.otf"; path = "Willow/fonts/NewYorkSmall-Heavy.otf"; sourceTree = "<group>"; };
+		FA6D7DD5257943510089DCB4 /* NewYorkExtraLarge-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkExtraLarge-Bold.otf"; path = "Willow/fonts/NewYorkExtraLarge-Bold.otf"; sourceTree = "<group>"; };
+		FA6D7DD6257943510089DCB4 /* NewYorkSmall-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkSmall-BlackItalic.otf"; path = "Willow/fonts/NewYorkSmall-BlackItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DD7257943510089DCB4 /* NewYorkMedium-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkMedium-BoldItalic.otf"; path = "Willow/fonts/NewYorkMedium-BoldItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DD9257943510089DCB4 /* NewYorkExtraLarge-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkExtraLarge-Regular.otf"; path = "Willow/fonts/NewYorkExtraLarge-Regular.otf"; sourceTree = "<group>"; };
+		FA6D7DDA257943520089DCB4 /* NewYorkSmall-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkSmall-Regular.otf"; path = "Willow/fonts/NewYorkSmall-Regular.otf"; sourceTree = "<group>"; };
+		FA6D7DDB257943520089DCB4 /* NewYorkLarge-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkLarge-RegularItalic.otf"; path = "Willow/fonts/NewYorkLarge-RegularItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DDC257943520089DCB4 /* NewYorkLarge-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkLarge-SemiboldItalic.otf"; path = "Willow/fonts/NewYorkLarge-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DDD257943520089DCB4 /* NewYorkSmall-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkSmall-BoldItalic.otf"; path = "Willow/fonts/NewYorkSmall-BoldItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DDE257943520089DCB4 /* NewYorkMedium-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkMedium-Semibold.otf"; path = "Willow/fonts/NewYorkMedium-Semibold.otf"; sourceTree = "<group>"; };
+		FA6D7DDF257943520089DCB4 /* NewYorkSmall-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkSmall-Bold.otf"; path = "Willow/fonts/NewYorkSmall-Bold.otf"; sourceTree = "<group>"; };
+		FA6D7DE0257943520089DCB4 /* NewYorkMedium-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkMedium-Bold.otf"; path = "Willow/fonts/NewYorkMedium-Bold.otf"; sourceTree = "<group>"; };
+		FA6D7DE1257943530089DCB4 /* NewYorkLarge-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkLarge-Bold.otf"; path = "Willow/fonts/NewYorkLarge-Bold.otf"; sourceTree = "<group>"; };
+		FA6D7DE2257943530089DCB4 /* NewYorkExtraLarge-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkExtraLarge-MediumItalic.otf"; path = "Willow/fonts/NewYorkExtraLarge-MediumItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DE3257943530089DCB4 /* NewYorkMedium-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkMedium-Heavy.otf"; path = "Willow/fonts/NewYorkMedium-Heavy.otf"; sourceTree = "<group>"; };
+		FA6D7DE4257943530089DCB4 /* NewYorkLarge-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkLarge-Black.otf"; path = "Willow/fonts/NewYorkLarge-Black.otf"; sourceTree = "<group>"; };
+		FA6D7DE5257943530089DCB4 /* NewYorkMedium-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkMedium-Medium.otf"; path = "Willow/fonts/NewYorkMedium-Medium.otf"; sourceTree = "<group>"; };
+		FA6D7DE6257943530089DCB4 /* NewYorkSmall-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkSmall-HeavyItalic.otf"; path = "Willow/fonts/NewYorkSmall-HeavyItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DE7257943530089DCB4 /* NewYorkMedium-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkMedium-MediumItalic.otf"; path = "Willow/fonts/NewYorkMedium-MediumItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DE8257943530089DCB4 /* NewYorkMedium-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkMedium-Regular.otf"; path = "Willow/fonts/NewYorkMedium-Regular.otf"; sourceTree = "<group>"; };
+		FA6D7DE9257943540089DCB4 /* NewYorkExtraLarge-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkExtraLarge-BlackItalic.otf"; path = "Willow/fonts/NewYorkExtraLarge-BlackItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DEA257943540089DCB4 /* NewYorkMedium-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkMedium-RegularItalic.otf"; path = "Willow/fonts/NewYorkMedium-RegularItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DEB257943540089DCB4 /* NewYorkExtraLarge-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkExtraLarge-RegularItalic.otf"; path = "Willow/fonts/NewYorkExtraLarge-RegularItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DEC257943540089DCB4 /* NewYorkLarge-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkLarge-Regular.otf"; path = "Willow/fonts/NewYorkLarge-Regular.otf"; sourceTree = "<group>"; };
+		FA6D7DED257943540089DCB4 /* NewYorkMedium-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkMedium-Black.otf"; path = "Willow/fonts/NewYorkMedium-Black.otf"; sourceTree = "<group>"; };
+		FA6D7DEE257943540089DCB4 /* NewYorkSmall-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkSmall-Semibold.otf"; path = "Willow/fonts/NewYorkSmall-Semibold.otf"; sourceTree = "<group>"; };
+		FA6D7DEF257943540089DCB4 /* NewYorkLarge-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkLarge-Semibold.otf"; path = "Willow/fonts/NewYorkLarge-Semibold.otf"; sourceTree = "<group>"; };
+		FA6D7DF0257943540089DCB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Willow/Images.xcassets; sourceTree = "<group>"; };
+		FA6D7DF1257943550089DCB4 /* NewYorkLarge-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkLarge-BoldItalic.otf"; path = "Willow/fonts/NewYorkLarge-BoldItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DF2257943550089DCB4 /* NewYorkSmall-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkSmall-MediumItalic.otf"; path = "Willow/fonts/NewYorkSmall-MediumItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DF3257943550089DCB4 /* NewYorkExtraLarge-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkExtraLarge-SemiboldItalic.otf"; path = "Willow/fonts/NewYorkExtraLarge-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DF4257943550089DCB4 /* NewYorkExtraLarge-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkExtraLarge-BoldItalic.otf"; path = "Willow/fonts/NewYorkExtraLarge-BoldItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DF5257943550089DCB4 /* NewYorkExtraLarge-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkExtraLarge-HeavyItalic.otf"; path = "Willow/fonts/NewYorkExtraLarge-HeavyItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DF6257943550089DCB4 /* NewYorkLarge-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkLarge-Medium.otf"; path = "Willow/fonts/NewYorkLarge-Medium.otf"; sourceTree = "<group>"; };
+		FA6D7DF7257943550089DCB4 /* NewYorkMedium-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkMedium-BlackItalic.otf"; path = "Willow/fonts/NewYorkMedium-BlackItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DF8257943560089DCB4 /* NewYorkItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NewYorkItalic.ttf; path = Willow/fonts/NewYorkItalic.ttf; sourceTree = "<group>"; };
+		FA6D7DF9257943560089DCB4 /* NewYorkLarge-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkLarge-Heavy.otf"; path = "Willow/fonts/NewYorkLarge-Heavy.otf"; sourceTree = "<group>"; };
+		FA6D7DFA257943560089DCB4 /* NewYorkSmall-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkSmall-Black.otf"; path = "Willow/fonts/NewYorkSmall-Black.otf"; sourceTree = "<group>"; };
+		FA6D7DFB257943560089DCB4 /* NewYorkMedium-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkMedium-SemiboldItalic.otf"; path = "Willow/fonts/NewYorkMedium-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DFC257943560089DCB4 /* NewYorkLarge-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkLarge-MediumItalic.otf"; path = "Willow/fonts/NewYorkLarge-MediumItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DFD257943560089DCB4 /* NewYorkLarge-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkLarge-HeavyItalic.otf"; path = "Willow/fonts/NewYorkLarge-HeavyItalic.otf"; sourceTree = "<group>"; };
+		FA6D7DFE257943560089DCB4 /* NewYorkExtraLarge-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkExtraLarge-Black.otf"; path = "Willow/fonts/NewYorkExtraLarge-Black.otf"; sourceTree = "<group>"; };
+		FA6D7DFF257943560089DCB4 /* NewYorkMedium-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkMedium-HeavyItalic.otf"; path = "Willow/fonts/NewYorkMedium-HeavyItalic.otf"; sourceTree = "<group>"; };
+		FA6D7E00257943570089DCB4 /* NewYorkSmall-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkSmall-Medium.otf"; path = "Willow/fonts/NewYorkSmall-Medium.otf"; sourceTree = "<group>"; };
+		FA6D7E01257943570089DCB4 /* NewYorkLarge-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkLarge-BlackItalic.otf"; path = "Willow/fonts/NewYorkLarge-BlackItalic.otf"; sourceTree = "<group>"; };
+		FA6D7E02257943570089DCB4 /* NewYorkSmall-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkSmall-RegularItalic.otf"; path = "Willow/fonts/NewYorkSmall-RegularItalic.otf"; sourceTree = "<group>"; };
+		FA6D7E03257943570089DCB4 /* NewYorkSmall-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkSmall-SemiboldItalic.otf"; path = "Willow/fonts/NewYorkSmall-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		FA6D7E04257943570089DCB4 /* NewYorkExtraLarge-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkExtraLarge-Heavy.otf"; path = "Willow/fonts/NewYorkExtraLarge-Heavy.otf"; sourceTree = "<group>"; };
+		FA6D7E05257943570089DCB4 /* NewYorkExtraLarge-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkExtraLarge-Semibold.otf"; path = "Willow/fonts/NewYorkExtraLarge-Semibold.otf"; sourceTree = "<group>"; };
+		FA6D7E06257943570089DCB4 /* NewYork.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NewYork.ttf; path = Willow/fonts/NewYork.ttf; sourceTree = "<group>"; };
+		FA6D7E07257943580089DCB4 /* NewYorkExtraLarge-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NewYorkExtraLarge-Medium.otf"; path = "Willow/fonts/NewYorkExtraLarge-Medium.otf"; sourceTree = "<group>"; };
+		FAA5C83C256D6A4D00FC2BE9 /* Mulish-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-BlackItalic.ttf"; path = "Willow/fonts/Mulish-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FAA5C83D256D6A4D00FC2BE9 /* Mulish-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-SemiBold.ttf"; path = "Willow/fonts/Mulish-SemiBold.ttf"; sourceTree = "<group>"; };
+		FAA5C83E256D6A4E00FC2BE9 /* Mulish-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-ExtraBold.ttf"; path = "Willow/fonts/Mulish-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FAA5C83F256D6A4E00FC2BE9 /* Mulish-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-ExtraLight.ttf"; path = "Willow/fonts/Mulish-ExtraLight.ttf"; sourceTree = "<group>"; };
+		FAA5C840256D6A4E00FC2BE9 /* Mulish-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-Light.ttf"; path = "Willow/fonts/Mulish-Light.ttf"; sourceTree = "<group>"; };
+		FAA5C841256D6A4E00FC2BE9 /* Mulish-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-Italic.ttf"; path = "Willow/fonts/Mulish-Italic.ttf"; sourceTree = "<group>"; };
+		FAA5C842256D6A4E00FC2BE9 /* Mulish-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-Bold.ttf"; path = "Willow/fonts/Mulish-Bold.ttf"; sourceTree = "<group>"; };
+		FAA5C843256D6A4E00FC2BE9 /* Mulish-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-LightItalic.ttf"; path = "Willow/fonts/Mulish-LightItalic.ttf"; sourceTree = "<group>"; };
+		FAA5C844256D6A4E00FC2BE9 /* Mulish-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-MediumItalic.ttf"; path = "Willow/fonts/Mulish-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FAA5C845256D6A4E00FC2BE9 /* Mulish-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-Medium.ttf"; path = "Willow/fonts/Mulish-Medium.ttf"; sourceTree = "<group>"; };
+		FAA5C846256D6A4F00FC2BE9 /* Mulish-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-ExtraBoldItalic.ttf"; path = "Willow/fonts/Mulish-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		FAA5C847256D6A4F00FC2BE9 /* Mulish-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-BoldItalic.ttf"; path = "Willow/fonts/Mulish-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FAA5C848256D6A4F00FC2BE9 /* Mulish-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-Black.ttf"; path = "Willow/fonts/Mulish-Black.ttf"; sourceTree = "<group>"; };
+		FAA5C849256D6A4F00FC2BE9 /* Mulish-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-ExtraLightItalic.ttf"; path = "Willow/fonts/Mulish-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		FAA5C84A256D6A4F00FC2BE9 /* Mulish-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-Regular.ttf"; path = "Willow/fonts/Mulish-Regular.ttf"; sourceTree = "<group>"; };
+		FAA5C84B256D6A4F00FC2BE9 /* Mulish-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mulish-SemiBoldItalic.ttf"; path = "Willow/fonts/Mulish-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FAC54CED2566E35D00C3347F /* Logo - 2:1 - white on transparent@2000w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo - 2:1 - white on transparent@2000w.png"; sourceTree = "<group>"; };
+		FAC54CEF2566E80200C3347F /* NeutraText-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-Book.otf"; path = "Willow/fonts/NeutraText-Book.otf"; sourceTree = "<group>"; };
+		FAC54CF02566E80200C3347F /* NeutraText-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-Bold.otf"; path = "Willow/fonts/NeutraText-Bold.otf"; sourceTree = "<group>"; };
+		FAC54CF12566E80200C3347F /* NeutraText-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BookItalic.otf"; path = "Willow/fonts/NeutraText-BookItalic.otf"; sourceTree = "<group>"; };
+		FAC54CF22566E80200C3347F /* NeutraText-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BoldItalic.otf"; path = "Willow/fonts/NeutraText-BoldItalic.otf"; sourceTree = "<group>"; };
+		FAC54CF72566E84400C3347F /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Foundation.ttf; path = Willow/fonts/Foundation.ttf; sourceTree = "<group>"; };
+		FAC54CF82566E84500C3347F /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = Willow/fonts/Fontisto.ttf; sourceTree = "<group>"; };
+		FAC54CF92566E84500C3347F /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Solid.ttf; path = Willow/fonts/FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		FAC54CFA2566E84500C3347F /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = Willow/fonts/Feather.ttf; sourceTree = "<group>"; };
+		FAC54CFB2566E84500C3347F /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = Willow/fonts/FontAwesome.ttf; sourceTree = "<group>"; };
+		FAC54CFC2566E84500C3347F /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = Willow/fonts/MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		FAC54CFD2566E84600C3347F /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = Willow/fonts/FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		FAC54CFE2566E84600C3347F /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SimpleLineIcons.ttf; path = Willow/fonts/SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		FAC54CFF2566E84600C3347F /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = Willow/fonts/Ionicons.ttf; sourceTree = "<group>"; };
+		FAC54D002566E84600C3347F /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = Willow/fonts/AntDesign.ttf; sourceTree = "<group>"; };
+		FAC54D012566E84600C3347F /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EvilIcons.ttf; path = Willow/fonts/EvilIcons.ttf; sourceTree = "<group>"; };
+		FAC54D022566E84600C3347F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Brands.ttf; path = Willow/fonts/FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		FAC54D032566E84600C3347F /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Octicons.ttf; path = Willow/fonts/Octicons.ttf; sourceTree = "<group>"; };
+		FAC54D042566E84700C3347F /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zocial.ttf; path = Willow/fonts/Zocial.ttf; sourceTree = "<group>"; };
+		FAC54D052566E84700C3347F /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Entypo.ttf; path = Willow/fonts/Entypo.ttf; sourceTree = "<group>"; };
+		FAC54D062566E84700C3347F /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = Willow/fonts/MaterialIcons.ttf; sourceTree = "<group>"; };
+		FF2AB66A46F211885604BEA3 /* Pods-Willow-WillowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Willow-WillowTests.debug.xcconfig"; path = "Target Support Files/Pods-Willow-WillowTests/Pods-Willow-WillowTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C019E0313BFB705C905CCEE /* Pods_Willow_WillowTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B785395A1A008B773C74A2E8 /* Pods_Willow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B971B496CACA835E81C333CF /* Pods_Willow_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9ACC737D140C7C7FBE5A12C /* Pods_Willow_tvOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* WillowTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* WillowTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = WillowTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1332F4F5B882B549B579177B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7575B88254700415B280D4E1 /* Pods-Willow.debug.xcconfig */,
+				F0737DEE3AACD9CEDEA2E70D /* Pods-Willow.release.xcconfig */,
+				FF2AB66A46F211885604BEA3 /* Pods-Willow-WillowTests.debug.xcconfig */,
+				7EF046A69CC93C85AE0C2DCC /* Pods-Willow-WillowTests.release.xcconfig */,
+				60D5812865F6E4AA4A7E1548 /* Pods-Willow-tvOS.debug.xcconfig */,
+				79ADE8A5A7E4F0963BBEF64F /* Pods-Willow-tvOS.release.xcconfig */,
+				E451139E8A907F26A0ED7BFA /* Pods-Willow-tvOSTests.debug.xcconfig */,
+				97BBA327F6756DC58CBB0342 /* Pods-Willow-tvOSTests.release.xcconfig */,
+				51E32DE7D0570389CAEE62BD /* Pods-Willow.stage.xcconfig */,
+				681D81DFA71A36C2D3C3B8CE /* Pods-Willow-WillowTests.stage.xcconfig */,
+				D9BE25354B1F85730B998723 /* Pods-Willow-tvOS.stage.xcconfig */,
+				81C0EBE88A973AE1ECE41CC1 /* Pods-Willow-tvOSTests.stage.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Willow */ = {
+			isa = PBXGroup;
+			children = (
+				8E1E0E022698FAD0009B4A68 /* Launch Screen.storyboard */,
+				8ECAA81C265F489700ABCF79 /* WillowRelease.entitlements */,
+				8ECAA81B265F47F100ABCF79 /* WillowDebug.entitlements */,
+				307F609025BF37D700314BAC /* Willow.entitlements */,
+				FA45A15C256319D30012D5BB /* fonts */,
+				FA45A1342562EAF50012D5BB /* Images.xcassets */,
+				FAC54CED2566E35D00C3347F /* Logo - 2:1 - white on transparent@2000w.png */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				8EB7789A25DD612D0090862F /* Firebase */,
+			);
+			name = Willow;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				7A33C9CA83E4B1EFFEDCA667 /* Pods_Willow.framework */,
+				968C47D042A3C7CCB16EDE38 /* Pods_Willow_WillowTests.framework */,
+				917134AE178E958CE58360F3 /* Pods_Willow_tvOS.framework */,
+				8084B816226F4DE0FDE5B5CB /* Pods_Willow_tvOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Willow */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* WillowTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				1332F4F5B882B549B579177B /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Willow.app */,
+				00E356EE1AD99517003FC87E /* WillowTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Willow-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Willow-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EB7789A25DD612D0090862F /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				8EB7789B25DD612D0090862F /* Prod */,
+				8EB7789D25DD612D0090862F /* Dev */,
+			);
+			name = Firebase;
+			path = Willow/Firebase;
+			sourceTree = "<group>";
+		};
+		8EB7789B25DD612D0090862F /* Prod */ = {
+			isa = PBXGroup;
+			children = (
+				8EB7789C25DD612D0090862F /* GoogleService-Info.plist */,
+			);
+			path = Prod;
+			sourceTree = "<group>";
+		};
+		8EB7789D25DD612D0090862F /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+				8EB7789E25DD612D0090862F /* GoogleService-Info.plist */,
+			);
+			path = Dev;
+			sourceTree = "<group>";
+		};
+		FA45A15C256319D30012D5BB /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA6D7DF0257943540089DCB4 /* Images.xcassets */,
+				FA6D7E06257943570089DCB4 /* NewYork.ttf */,
+				FA6D7DFE257943560089DCB4 /* NewYorkExtraLarge-Black.otf */,
+				FA6D7DE9257943540089DCB4 /* NewYorkExtraLarge-BlackItalic.otf */,
+				FA3E6BE5258E17DD001FD4DC /* icomoon.ttf */,
+				FA6D7DD5257943510089DCB4 /* NewYorkExtraLarge-Bold.otf */,
+				FA6D7DF4257943550089DCB4 /* NewYorkExtraLarge-BoldItalic.otf */,
+				FA6D7E04257943570089DCB4 /* NewYorkExtraLarge-Heavy.otf */,
+				FA6D7DF5257943550089DCB4 /* NewYorkExtraLarge-HeavyItalic.otf */,
+				FA6D7E07257943580089DCB4 /* NewYorkExtraLarge-Medium.otf */,
+				FA6D7DE2257943530089DCB4 /* NewYorkExtraLarge-MediumItalic.otf */,
+				FA6D7DD9257943510089DCB4 /* NewYorkExtraLarge-Regular.otf */,
+				FA6D7DEB257943540089DCB4 /* NewYorkExtraLarge-RegularItalic.otf */,
+				FA6D7E05257943570089DCB4 /* NewYorkExtraLarge-Semibold.otf */,
+				FA6D7DF3257943550089DCB4 /* NewYorkExtraLarge-SemiboldItalic.otf */,
+				FA6D7DF8257943560089DCB4 /* NewYorkItalic.ttf */,
+				FA6D7DE4257943530089DCB4 /* NewYorkLarge-Black.otf */,
+				FA6D7E01257943570089DCB4 /* NewYorkLarge-BlackItalic.otf */,
+				FA6D7DE1257943530089DCB4 /* NewYorkLarge-Bold.otf */,
+				FA6D7DF1257943550089DCB4 /* NewYorkLarge-BoldItalic.otf */,
+				FA6D7DF9257943560089DCB4 /* NewYorkLarge-Heavy.otf */,
+				FA6D7DFD257943560089DCB4 /* NewYorkLarge-HeavyItalic.otf */,
+				FA6D7DF6257943550089DCB4 /* NewYorkLarge-Medium.otf */,
+				FA6D7DFC257943560089DCB4 /* NewYorkLarge-MediumItalic.otf */,
+				FA6D7DEC257943540089DCB4 /* NewYorkLarge-Regular.otf */,
+				FA6D7DDB257943520089DCB4 /* NewYorkLarge-RegularItalic.otf */,
+				FA6D7DEF257943540089DCB4 /* NewYorkLarge-Semibold.otf */,
+				FA6D7DDC257943520089DCB4 /* NewYorkLarge-SemiboldItalic.otf */,
+				FA6D7DED257943540089DCB4 /* NewYorkMedium-Black.otf */,
+				FA6D7DF7257943550089DCB4 /* NewYorkMedium-BlackItalic.otf */,
+				FA6D7DE0257943520089DCB4 /* NewYorkMedium-Bold.otf */,
+				FA6D7DD7257943510089DCB4 /* NewYorkMedium-BoldItalic.otf */,
+				FA6D7DE3257943530089DCB4 /* NewYorkMedium-Heavy.otf */,
+				FA6D7DFF257943560089DCB4 /* NewYorkMedium-HeavyItalic.otf */,
+				FA6D7DE5257943530089DCB4 /* NewYorkMedium-Medium.otf */,
+				FA6D7DE7257943530089DCB4 /* NewYorkMedium-MediumItalic.otf */,
+				FA6D7DE8257943530089DCB4 /* NewYorkMedium-Regular.otf */,
+				FA6D7DEA257943540089DCB4 /* NewYorkMedium-RegularItalic.otf */,
+				FA6D7DDE257943520089DCB4 /* NewYorkMedium-Semibold.otf */,
+				FA6D7DFB257943560089DCB4 /* NewYorkMedium-SemiboldItalic.otf */,
+				FA6D7DFA257943560089DCB4 /* NewYorkSmall-Black.otf */,
+				FA6D7DD6257943510089DCB4 /* NewYorkSmall-BlackItalic.otf */,
+				FA6D7DDF257943520089DCB4 /* NewYorkSmall-Bold.otf */,
+				FA6D7DDD257943520089DCB4 /* NewYorkSmall-BoldItalic.otf */,
+				FA6D7DD4257943510089DCB4 /* NewYorkSmall-Heavy.otf */,
+				FA6D7DE6257943530089DCB4 /* NewYorkSmall-HeavyItalic.otf */,
+				FA6D7E00257943570089DCB4 /* NewYorkSmall-Medium.otf */,
+				FA6D7DF2257943550089DCB4 /* NewYorkSmall-MediumItalic.otf */,
+				FA6D7DDA257943520089DCB4 /* NewYorkSmall-Regular.otf */,
+				FA6D7E02257943570089DCB4 /* NewYorkSmall-RegularItalic.otf */,
+				FA6D7DEE257943540089DCB4 /* NewYorkSmall-Semibold.otf */,
+				FA6D7E03257943570089DCB4 /* NewYorkSmall-SemiboldItalic.otf */,
+				FAA5C848256D6A4F00FC2BE9 /* Mulish-Black.ttf */,
+				FAA5C83C256D6A4D00FC2BE9 /* Mulish-BlackItalic.ttf */,
+				FAA5C842256D6A4E00FC2BE9 /* Mulish-Bold.ttf */,
+				FAA5C847256D6A4F00FC2BE9 /* Mulish-BoldItalic.ttf */,
+				FAA5C83E256D6A4E00FC2BE9 /* Mulish-ExtraBold.ttf */,
+				FAA5C846256D6A4F00FC2BE9 /* Mulish-ExtraBoldItalic.ttf */,
+				FAA5C83F256D6A4E00FC2BE9 /* Mulish-ExtraLight.ttf */,
+				FAA5C849256D6A4F00FC2BE9 /* Mulish-ExtraLightItalic.ttf */,
+				FAA5C841256D6A4E00FC2BE9 /* Mulish-Italic.ttf */,
+				FAA5C840256D6A4E00FC2BE9 /* Mulish-Light.ttf */,
+				FAA5C843256D6A4E00FC2BE9 /* Mulish-LightItalic.ttf */,
+				FAA5C845256D6A4E00FC2BE9 /* Mulish-Medium.ttf */,
+				FAA5C844256D6A4E00FC2BE9 /* Mulish-MediumItalic.ttf */,
+				FAA5C84A256D6A4F00FC2BE9 /* Mulish-Regular.ttf */,
+				FAA5C83D256D6A4D00FC2BE9 /* Mulish-SemiBold.ttf */,
+				FAA5C84B256D6A4F00FC2BE9 /* Mulish-SemiBoldItalic.ttf */,
+				FAC54D002566E84600C3347F /* AntDesign.ttf */,
+				FAC54D052566E84700C3347F /* Entypo.ttf */,
+				FAC54D012566E84600C3347F /* EvilIcons.ttf */,
+				FAC54CFA2566E84500C3347F /* Feather.ttf */,
+				FAC54CFB2566E84500C3347F /* FontAwesome.ttf */,
+				FAC54D022566E84600C3347F /* FontAwesome5_Brands.ttf */,
+				FAC54CFD2566E84600C3347F /* FontAwesome5_Regular.ttf */,
+				FAC54CF92566E84500C3347F /* FontAwesome5_Solid.ttf */,
+				FAC54CF82566E84500C3347F /* Fontisto.ttf */,
+				FAC54CF72566E84400C3347F /* Foundation.ttf */,
+				FAC54CFF2566E84600C3347F /* Ionicons.ttf */,
+				FAC54CFC2566E84500C3347F /* MaterialCommunityIcons.ttf */,
+				FAC54D062566E84700C3347F /* MaterialIcons.ttf */,
+				FAC54D032566E84600C3347F /* Octicons.ttf */,
+				FAC54CFE2566E84600C3347F /* SimpleLineIcons.ttf */,
+				FAC54D042566E84700C3347F /* Zocial.ttf */,
+				FAC54CF02566E80200C3347F /* NeutraText-Bold.otf */,
+				FAC54CF22566E80200C3347F /* NeutraText-BoldItalic.otf */,
+				FAC54CEF2566E80200C3347F /* NeutraText-Book.otf */,
+				FAC54CF12566E80200C3347F /* NeutraText-BookItalic.otf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* WillowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WillowTests" */;
+			buildPhases = (
+				A31A229D8D554DF05CA1CE99 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				8D248906E4AEB5306DFB81E2 /* [CP] Embed Pods Frameworks */,
+				91E1C323A190FCCB6F1BFBB8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = WillowTests;
+			productName = WillowTests;
+			productReference = 00E356EE1AD99517003FC87E /* WillowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Willow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Willow" */;
+			buildPhases = (
+				FE0397813E5FB89300916B14 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				8EB7789F25DD61EC0090862F /* Setup Firebase Enviornment GoogleService-Info.plist */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				6695ACCEE2AD10B33629F776 /* [CP-User] [RNFB] Core Configuration */,
+				324F005EE10F51C3DA3F9D97 /* [CP] Embed Pods Frameworks */,
+				85B34AB9A2D5A98514BDFEEB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Willow;
+			productName = Willow;
+			productReference = 13B07F961A680F5B00A75B9A /* Willow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* Willow-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Willow-tvOS" */;
+			buildPhases = (
+				1A6DA23F86327266ECCE6934 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Willow-tvOS";
+			productName = "Willow-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Willow-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* Willow-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Willow-tvOSTests" */;
+			buildPhases = (
+				A93D5AA8F4D244AC699C687D /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "Willow-tvOSTests";
+			productName = "Willow-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Willow-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = GD4FK47Y77;
+						LastSwiftMigration = 1120;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Willow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Willow */,
+				00E356ED1AD99517003FC87E /* WillowTests */,
+				2D02E47A1E0B4A5D006451C7 /* Willow-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Willow-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAC801F26647693007A6118 /* Willow.entitlements in Resources */,
+				FA3E6BE6258E17DD001FD4DC /* icomoon.ttf in Resources */,
+				FA6D7E20257943580089DCB4 /* NewYorkLarge-Regular.otf in Resources */,
+				FAA5C851256D6A5000FC2BE9 /* Mulish-Italic.ttf in Resources */,
+				FA6D7E0B257943580089DCB4 /* NewYorkMedium-BoldItalic.otf in Resources */,
+				FA6D7E10257943580089DCB4 /* NewYorkLarge-SemiboldItalic.otf in Resources */,
+				FAA5C858256D6A5000FC2BE9 /* Mulish-Black.ttf in Resources */,
+				FA6D7E32257943580089DCB4 /* NewYorkExtraLarge-Black.otf in Resources */,
+				FA6D7E18257943580089DCB4 /* NewYorkLarge-Black.otf in Resources */,
+				FAA5C859256D6A5000FC2BE9 /* Mulish-ExtraLightItalic.ttf in Resources */,
+				FA6D7E2D257943580089DCB4 /* NewYorkLarge-Heavy.otf in Resources */,
+				FAA5C84F256D6A5000FC2BE9 /* Mulish-ExtraLight.ttf in Resources */,
+				FA6D7E24257943580089DCB4 /* Images.xcassets in Resources */,
+				FA6D7E2A257943580089DCB4 /* NewYorkLarge-Medium.otf in Resources */,
+				FAA5C850256D6A5000FC2BE9 /* Mulish-Light.ttf in Resources */,
+				FA6D7E29257943580089DCB4 /* NewYorkExtraLarge-HeavyItalic.otf in Resources */,
+				FAA5C852256D6A5000FC2BE9 /* Mulish-Bold.ttf in Resources */,
+				FAA5C854256D6A5000FC2BE9 /* Mulish-MediumItalic.ttf in Resources */,
+				FA6D7E1A257943580089DCB4 /* NewYorkSmall-HeavyItalic.otf in Resources */,
+				FA6D7E1D257943580089DCB4 /* NewYorkExtraLarge-BlackItalic.otf in Resources */,
+				FA6D7E15257943580089DCB4 /* NewYorkLarge-Bold.otf in Resources */,
+				FA6D7E1B257943580089DCB4 /* NewYorkMedium-MediumItalic.otf in Resources */,
+				FA6D7E1F257943580089DCB4 /* NewYorkExtraLarge-RegularItalic.otf in Resources */,
+				FA6D7E3A257943580089DCB4 /* NewYork.ttf in Resources */,
+				FAC54D172566ED7D00C3347F /* NeutraText-Bold.otf in Resources */,
+				FAC54D182566ED7D00C3347F /* NeutraText-BoldItalic.otf in Resources */,
+				FA6D7E28257943580089DCB4 /* NewYorkExtraLarge-BoldItalic.otf in Resources */,
+				FA6D7E23257943580089DCB4 /* NewYorkLarge-Semibold.otf in Resources */,
+				FA6D7E33257943580089DCB4 /* NewYorkMedium-HeavyItalic.otf in Resources */,
+				FA6D7E2B257943580089DCB4 /* NewYorkMedium-BlackItalic.otf in Resources */,
+				FA6D7E31257943580089DCB4 /* NewYorkLarge-HeavyItalic.otf in Resources */,
+				FA6D7E0D257943580089DCB4 /* NewYorkExtraLarge-Regular.otf in Resources */,
+				FA6D7E17257943580089DCB4 /* NewYorkMedium-Heavy.otf in Resources */,
+				FA6D7E19257943580089DCB4 /* NewYorkMedium-Medium.otf in Resources */,
+				FA6D7E26257943580089DCB4 /* NewYorkSmall-MediumItalic.otf in Resources */,
+				FA6D7E30257943580089DCB4 /* NewYorkLarge-MediumItalic.otf in Resources */,
+				FAA5C855256D6A5000FC2BE9 /* Mulish-Medium.ttf in Resources */,
+				FA6D7E2E257943580089DCB4 /* NewYorkSmall-Black.otf in Resources */,
+				FAC54D192566ED7D00C3347F /* NeutraText-Book.otf in Resources */,
+				FAC54D1A2566ED7D00C3347F /* NeutraText-BookItalic.otf in Resources */,
+				FA6D7E25257943580089DCB4 /* NewYorkLarge-BoldItalic.otf in Resources */,
+				FA6D7E21257943580089DCB4 /* NewYorkMedium-Black.otf in Resources */,
+				FA6D7E13257943580089DCB4 /* NewYorkSmall-Bold.otf in Resources */,
+				FA6D7E12257943580089DCB4 /* NewYorkMedium-Semibold.otf in Resources */,
+				FA6D7E11257943580089DCB4 /* NewYorkSmall-BoldItalic.otf in Resources */,
+				FAA5C856256D6A5000FC2BE9 /* Mulish-ExtraBoldItalic.ttf in Resources */,
+				8E1E0E032698FAD0009B4A68 /* Launch Screen.storyboard in Resources */,
+				FA6D7E0A257943580089DCB4 /* NewYorkSmall-BlackItalic.otf in Resources */,
+				FA6D7E2F257943580089DCB4 /* NewYorkMedium-SemiboldItalic.otf in Resources */,
+				FA6D7E27257943580089DCB4 /* NewYorkExtraLarge-SemiboldItalic.otf in Resources */,
+				FA6D7E1C257943580089DCB4 /* NewYorkMedium-Regular.otf in Resources */,
+				FA6D7E36257943580089DCB4 /* NewYorkSmall-RegularItalic.otf in Resources */,
+				FAA5C84E256D6A5000FC2BE9 /* Mulish-ExtraBold.ttf in Resources */,
+				FA6D7E09257943580089DCB4 /* NewYorkExtraLarge-Bold.otf in Resources */,
+				FA6D7E2C257943580089DCB4 /* NewYorkItalic.ttf in Resources */,
+				FA6D7E0E257943580089DCB4 /* NewYorkSmall-Regular.otf in Resources */,
+				FAC54CEE2566E35D00C3347F /* Logo - 2:1 - white on transparent@2000w.png in Resources */,
+				FA6D7E37257943580089DCB4 /* NewYorkSmall-SemiboldItalic.otf in Resources */,
+				FAA5C85B256D6A5000FC2BE9 /* Mulish-SemiBoldItalic.ttf in Resources */,
+				FA45A1352562EAF50012D5BB /* Images.xcassets in Resources */,
+				FA6D7E3B257943580089DCB4 /* NewYorkExtraLarge-Medium.otf in Resources */,
+				FA6D7E16257943580089DCB4 /* NewYorkExtraLarge-MediumItalic.otf in Resources */,
+				FAA5C84C256D6A5000FC2BE9 /* Mulish-BlackItalic.ttf in Resources */,
+				FA6D7E35257943580089DCB4 /* NewYorkLarge-BlackItalic.otf in Resources */,
+				FA6D7E34257943580089DCB4 /* NewYorkSmall-Medium.otf in Resources */,
+				FAA5C84D256D6A5000FC2BE9 /* Mulish-SemiBold.ttf in Resources */,
+				FA6D7E22257943580089DCB4 /* NewYorkSmall-Semibold.otf in Resources */,
+				FAA5C853256D6A5000FC2BE9 /* Mulish-LightItalic.ttf in Resources */,
+				FA6D7E08257943580089DCB4 /* NewYorkSmall-Heavy.otf in Resources */,
+				FA6D7E39257943580089DCB4 /* NewYorkExtraLarge-Semibold.otf in Resources */,
+				FA6D7E1E257943580089DCB4 /* NewYorkMedium-RegularItalic.otf in Resources */,
+				FA6D7E0F257943580089DCB4 /* NewYorkLarge-RegularItalic.otf in Resources */,
+				FA6D7E38257943580089DCB4 /* NewYorkExtraLarge-Heavy.otf in Resources */,
+				FAA5C85A256D6A5000FC2BE9 /* Mulish-Regular.ttf in Resources */,
+				FAA5C857256D6A5000FC2BE9 /* Mulish-BoldItalic.ttf in Resources */,
+				FA6D7E14257943580089DCB4 /* NewYorkMedium-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		1A6DA23F86327266ECCE6934 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Willow-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		324F005EE10F51C3DA3F9D97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Willow/Pods-Willow-frameworks.sh",
+				"${PODS_ROOT}/VSCCrypto/Carthage/iOS/VSCCommon.framework",
+				"${PODS_ROOT}/VSCCrypto/Carthage/iOS/VSCFoundation.framework",
+				"${PODS_ROOT}/VSCCrypto/Carthage/iOS/VSCPythia.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VSCCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VSCFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VSCPythia.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Willow/Pods-Willow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6695ACCEE2AD10B33629F776 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\n\n  # config.admob_delay_app_measurement_init\n  _ADMOB_DELAY_APP_MEASUREMENT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_delay_app_measurement_init\")\n  if [[ $_ADMOB_DELAY_APP_MEASUREMENT == \"true\" ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADDelayAppMeasurementInit\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"YES\")\n  fi\n\n  # config.admob_ios_app_id\n  _ADMOB_IOS_APP_ID=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_ios_app_id\")\n  if [[ $_ADMOB_IOS_APP_ID ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADApplicationIdentifier\")\n    _PLIST_ENTRY_TYPES+=(\"string\")\n    _PLIST_ENTRY_VALUES+=(\"$_ADMOB_IOS_APP_ID\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		85B34AB9A2D5A98514BDFEEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Willow/Pods-Willow-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController/TOCropViewControllerBundle.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates-Cpp.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TOCropViewControllerBundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Cpp.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Willow/Pods-Willow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D248906E4AEB5306DFB81E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Willow-WillowTests/Pods-Willow-WillowTests-frameworks.sh",
+				"${PODS_ROOT}/VSCCrypto/Carthage/iOS/VSCCommon.framework",
+				"${PODS_ROOT}/VSCCrypto/Carthage/iOS/VSCFoundation.framework",
+				"${PODS_ROOT}/VSCCrypto/Carthage/iOS/VSCPythia.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VSCCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VSCFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VSCPythia.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Willow-WillowTests/Pods-Willow-WillowTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EB7789F25DD61EC0090862F /* Setup Firebase Enviornment GoogleService-Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Setup Firebase Enviornment GoogleService-Info.plist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Name of the resource we're selectively copying\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n\n# Get references to dev and prod versions of the GoogleService-Info.plist\n# NOTE: These should only live on the file system and should NOT be part of the target (since we'll be adding them to the target manually)\nGOOGLESERVICE_INFO_DEV=${PROJECT_DIR}/${TARGET_NAME}/Firebase/Dev/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_PROD=${PROJECT_DIR}/${TARGET_NAME}/Firebase/Prod/${GOOGLESERVICE_INFO_PLIST}\n\n# Make sure the dev version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_DEV}\"\nif [ ! -f $GOOGLESERVICE_INFO_DEV ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n# Make sure the prod version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_PROD}\"\nif [ ! -f $GOOGLESERVICE_INFO_PROD ]\nthen\n    echo \"No Production GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n\n# Copy over the prod GoogleService-Info.plist for Release builds\nif [ \"${CONFIGURATION}\" == \"Release\" ]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_PROD}\"\n    cp \"${GOOGLESERVICE_INFO_PROD}\" \"${PLIST_DESTINATION}\"\nelif [ \"${CONFIGURATION}\" == \"Stage\" ]\nthen\n    echo \"In Staging Config, Using ${GOOGLESERVICE_INFO_DEV}\"\n    cp \"${GOOGLESERVICE_INFO_DEV}\" \"${PLIST_DESTINATION}\"\nelse\n    echo \"Using ${GOOGLESERVICE_INFO_DEV}\"\n    cp \"${GOOGLESERVICE_INFO_DEV}\" \"${PLIST_DESTINATION}\"\nfi\n";
+		};
+		91E1C323A190FCCB6F1BFBB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Willow-WillowTests/Pods-Willow-WillowTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController/TOCropViewControllerBundle.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates-Cpp.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TOCropViewControllerBundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Cpp.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Willow-WillowTests/Pods-Willow-WillowTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A31A229D8D554DF05CA1CE99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Willow-WillowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A93D5AA8F4D244AC699C687D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Willow-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE0397813E5FB89300916B14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Willow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* WillowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* WillowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Willow */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* Willow-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2AB66A46F211885604BEA3 /* Pods-Willow-WillowTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WillowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Willow.app/Willow";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EF046A69CC93C85AE0C2DCC /* Pods-Willow-WillowTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = WillowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Willow.app/Willow";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7575B88254700415B280D4E1 /* Pods-Willow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Willow/WillowDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10.3.6;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = GD4FK47Y77;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/BoringSSL-GRPC\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaAsyncSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaLibEvent\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/FBReactNativeSpec\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnostics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseFirestore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstallations\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Glog\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-PeerTalk\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-RSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/FlipperKit\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenSSL-Universal\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-AppTrackingTransparency\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Camera\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Contacts\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-FaceID\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationAccuracy\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationAlways\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationWhenInUse\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-MediaLibrary\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Microphone\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Motion\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Notifications\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-PhotoLibrary\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-PhotoLibraryAddOnly\"",
+					"\"${PODS_ROOT}/Headers/Public/PromisesObjC\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCClipboard\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCMaskedView\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBApp\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBFirestore\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFastImage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNGestureHandler\"",
+					"\"${PODS_ROOT}/Headers/Public/RNImageCropPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNInputMask\"",
+					"\"${PODS_ROOT}/Headers/Public/RNPermissions\"",
+					"\"${PODS_ROOT}/Headers/Public/RNReanimated\"",
+					"\"${PODS_ROOT}/Headers/Public/RNSVG\"",
+					"\"${PODS_ROOT}/Headers/Public/RNScreens\"",
+					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder\"",
+					"\"${PODS_ROOT}/Headers/Public/TOCropViewController\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/YogaKit\"",
+					"\"${PODS_ROOT}/Headers/Public/abseil\"",
+					"\"${PODS_ROOT}/Headers/Public/gRPC-C++\"",
+					"\"${PODS_ROOT}/Headers/Public/gRPC-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/leveldb-library\"",
+					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
+					"\"${PODS_ROOT}/Headers/Public/nanopb\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-cameraroll\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-contacts\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-image-resizer\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-safe-area-context\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-splash-screen\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-text-input-mask\"",
+					"\"${PODS_ROOT}/Headers/Public/rn-fetch-blob\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+				);
+				INFOPLIST_FILE = Willow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 10.3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.willowparenting.willow;
+				PRODUCT_NAME = Willow;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0737DEE3AACD9CEDEA2E70D /* Pods-Willow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Willow/WillowRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10.3.6;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = GD4FK47Y77;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/BoringSSL-GRPC\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaAsyncSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaLibEvent\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/FBReactNativeSpec\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnostics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseFirestore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstallations\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Glog\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-PeerTalk\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-RSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/FlipperKit\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenSSL-Universal\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-AppTrackingTransparency\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Camera\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Contacts\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-FaceID\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationAccuracy\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationAlways\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationWhenInUse\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-MediaLibrary\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Microphone\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Motion\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Notifications\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-PhotoLibrary\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-PhotoLibraryAddOnly\"",
+					"\"${PODS_ROOT}/Headers/Public/PromisesObjC\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCClipboard\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCMaskedView\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBApp\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBFirestore\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFastImage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNGestureHandler\"",
+					"\"${PODS_ROOT}/Headers/Public/RNImageCropPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNInputMask\"",
+					"\"${PODS_ROOT}/Headers/Public/RNPermissions\"",
+					"\"${PODS_ROOT}/Headers/Public/RNReanimated\"",
+					"\"${PODS_ROOT}/Headers/Public/RNSVG\"",
+					"\"${PODS_ROOT}/Headers/Public/RNScreens\"",
+					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder\"",
+					"\"${PODS_ROOT}/Headers/Public/TOCropViewController\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/YogaKit\"",
+					"\"${PODS_ROOT}/Headers/Public/abseil\"",
+					"\"${PODS_ROOT}/Headers/Public/gRPC-C++\"",
+					"\"${PODS_ROOT}/Headers/Public/gRPC-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/leveldb-library\"",
+					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
+					"\"${PODS_ROOT}/Headers/Public/nanopb\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-cameraroll\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-contacts\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-image-resizer\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-safe-area-context\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-splash-screen\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-text-input-mask\"",
+					"\"${PODS_ROOT}/Headers/Public/rn-fetch-blob\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+				);
+				INFOPLIST_FILE = Willow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstanceID\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseMessaging\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseStorage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-AppTrackingTransparency\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Camera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Contacts\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-FaceID\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-LocationAccuracy\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-LocationAlways\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-LocationWhenInUse\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-MediaLibrary\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Microphone\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Motion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Notifications\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-PhotoLibrary\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-PhotoLibraryAddOnly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCAsyncStorage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCClipboard\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCMaskedView\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCPicker\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBApp\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBFirestore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBMessaging\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBStorage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFastImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNInputMask\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNScreens\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNVectorIcons\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImageWebPCoder\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YogaKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libwebp\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-cameraroll\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-contacts\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-image-resizer\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-safe-area-context\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-splash-screen\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-text-input-mask\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/rn-fetch-blob\"",
+					"\"${PODS_ROOT}/CocoaLibEvent/lib\"",
+					"\"${PODS_ROOT}/OpenSSL-Universal/ios/lib\"",
+				);
+				MARKETING_VERSION = 10.3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.willowparenting.willow;
+				PRODUCT_NAME = Willow;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D5812865F6E4AA4A7E1548 /* Pods-Willow-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Willow-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Willow-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79ADE8A5A7E4F0963BBEF64F /* Pods-Willow-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Willow-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Willow-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E451139E8A907F26A0ED7BFA /* Pods-Willow-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Willow-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Willow-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Willow-tvOS.app/Willow-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97BBA327F6756DC58CBB0342 /* Pods-Willow-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Willow-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Willow-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Willow-tvOS.app/Willow-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EB778C125DE3B0E0090862F /* Stage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Stage;
+		};
+		8EB778C225DE3B0E0090862F /* Stage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E32DE7D0570389CAEE62BD /* Pods-Willow.stage.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Willow/Willow.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10.3.6;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = GD4FK47Y77;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/BoringSSL-GRPC\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaAsyncSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaLibEvent\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/FBReactNativeSpec\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnostics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseFirestore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstallations\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Glog\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-PeerTalk\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-RSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/FlipperKit\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenSSL-Universal\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-AppTrackingTransparency\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Camera\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Contacts\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-FaceID\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationAccuracy\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationAlways\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationWhenInUse\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-MediaLibrary\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Microphone\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Motion\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Notifications\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-PhotoLibrary\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-PhotoLibraryAddOnly\"",
+					"\"${PODS_ROOT}/Headers/Public/PromisesObjC\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCClipboard\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCMaskedView\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBApp\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBFirestore\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFastImage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNGestureHandler\"",
+					"\"${PODS_ROOT}/Headers/Public/RNImageCropPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNInputMask\"",
+					"\"${PODS_ROOT}/Headers/Public/RNPermissions\"",
+					"\"${PODS_ROOT}/Headers/Public/RNReanimated\"",
+					"\"${PODS_ROOT}/Headers/Public/RNSVG\"",
+					"\"${PODS_ROOT}/Headers/Public/RNScreens\"",
+					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder\"",
+					"\"${PODS_ROOT}/Headers/Public/TOCropViewController\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/YogaKit\"",
+					"\"${PODS_ROOT}/Headers/Public/abseil\"",
+					"\"${PODS_ROOT}/Headers/Public/gRPC-C++\"",
+					"\"${PODS_ROOT}/Headers/Public/gRPC-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/leveldb-library\"",
+					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
+					"\"${PODS_ROOT}/Headers/Public/nanopb\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-cameraroll\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-contacts\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-image-resizer\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-safe-area-context\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-splash-screen\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-text-input-mask\"",
+					"\"${PODS_ROOT}/Headers/Public/rn-fetch-blob\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+					"$(BUILD_DIR)/Release-$(PLATFORM_NAME)/include",
+				);
+				INFOPLIST_FILE = Willow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstanceID\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseMessaging\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseStorage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-AppTrackingTransparency\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Camera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Contacts\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-FaceID\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-LocationAccuracy\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-LocationAlways\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-LocationWhenInUse\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-MediaLibrary\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Microphone\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Motion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Notifications\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-PhotoLibrary\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-PhotoLibraryAddOnly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCAsyncStorage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCClipboard\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCMaskedView\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCPicker\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBApp\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBFirestore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBMessaging\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBStorage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFastImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNInputMask\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNScreens\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNVectorIcons\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImageWebPCoder\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YogaKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libwebp\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-cameraroll\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-contacts\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-image-resizer\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-safe-area-context\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-splash-screen\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-text-input-mask\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/rn-fetch-blob\"",
+					"\"${PODS_ROOT}/CocoaLibEvent/lib\"",
+					"\"${PODS_ROOT}/OpenSSL-Universal/ios/lib\"",
+					"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)",
+				);
+				MARKETING_VERSION = 10.3;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.willowparenting.willow;
+				PRODUCT_NAME = Willow;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Stage;
+		};
+		8EB778C325DE3B0E0090862F /* Stage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 681D81DFA71A36C2D3C3B8CE /* Pods-Willow-WillowTests.stage.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/BoringSSL-GRPC\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaAsyncSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaLibEvent\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/FBReactNativeSpec\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnostics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseFirestore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstallations\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Glog\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-PeerTalk\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-RSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/FlipperKit\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenSSL-Universal\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-AppTrackingTransparency\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Camera\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Contacts\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-FaceID\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationAccuracy\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationAlways\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationWhenInUse\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-MediaLibrary\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Microphone\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Motion\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Notifications\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-PhotoLibrary\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-PhotoLibraryAddOnly\"",
+					"\"${PODS_ROOT}/Headers/Public/PromisesObjC\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCClipboard\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCMaskedView\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBApp\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBFirestore\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFastImage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNGestureHandler\"",
+					"\"${PODS_ROOT}/Headers/Public/RNImageCropPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNInputMask\"",
+					"\"${PODS_ROOT}/Headers/Public/RNPermissions\"",
+					"\"${PODS_ROOT}/Headers/Public/RNReanimated\"",
+					"\"${PODS_ROOT}/Headers/Public/RNSVG\"",
+					"\"${PODS_ROOT}/Headers/Public/RNScreens\"",
+					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder\"",
+					"\"${PODS_ROOT}/Headers/Public/TOCropViewController\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/YogaKit\"",
+					"\"${PODS_ROOT}/Headers/Public/abseil\"",
+					"\"${PODS_ROOT}/Headers/Public/gRPC-C++\"",
+					"\"${PODS_ROOT}/Headers/Public/gRPC-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/leveldb-library\"",
+					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
+					"\"${PODS_ROOT}/Headers/Public/nanopb\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-cameraroll\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-contacts\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-image-resizer\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-safe-area-context\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-splash-screen\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-text-input-mask\"",
+					"\"${PODS_ROOT}/Headers/Public/rn-fetch-blob\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+					"$(BUILD_DIR)/Release-$(PLATFORM_NAME)/include",
+				);
+				INFOPLIST_FILE = WillowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstanceID\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseMessaging\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseStorage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-AppTrackingTransparency\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Camera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Contacts\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-FaceID\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-LocationAccuracy\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-LocationAlways\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-LocationWhenInUse\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-MediaLibrary\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Microphone\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Motion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Notifications\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-PhotoLibrary\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-PhotoLibraryAddOnly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCAsyncStorage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCClipboard\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCMaskedView\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCPicker\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBApp\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBFirestore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBMessaging\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBStorage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFastImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNInputMask\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNScreens\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNVectorIcons\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImageWebPCoder\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YogaKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libwebp\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-cameraroll\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-contacts\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-image-resizer\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-safe-area-context\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-splash-screen\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-text-input-mask\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/rn-fetch-blob\"",
+					"\"${PODS_ROOT}/CocoaLibEvent/lib\"",
+					"\"${PODS_ROOT}/OpenSSL-Universal/ios/lib\"",
+					"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Willow.app/Willow";
+			};
+			name = Stage;
+		};
+		8EB778C425DE3B0E0090862F /* Stage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9BE25354B1F85730B998723 /* Pods-Willow-tvOS.stage.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/BoringSSL-GRPC\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaAsyncSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaLibEvent\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/FBReactNativeSpec\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnostics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseFirestore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstallations\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Glog\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-PeerTalk\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-RSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/FlipperKit\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenSSL-Universal\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-AppTrackingTransparency\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Camera\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Contacts\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-FaceID\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationAccuracy\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationAlways\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationWhenInUse\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-MediaLibrary\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Microphone\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Motion\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Notifications\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-PhotoLibrary\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-PhotoLibraryAddOnly\"",
+					"\"${PODS_ROOT}/Headers/Public/PromisesObjC\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCClipboard\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCMaskedView\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBApp\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBFirestore\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFastImage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNGestureHandler\"",
+					"\"${PODS_ROOT}/Headers/Public/RNImageCropPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNInputMask\"",
+					"\"${PODS_ROOT}/Headers/Public/RNPermissions\"",
+					"\"${PODS_ROOT}/Headers/Public/RNReanimated\"",
+					"\"${PODS_ROOT}/Headers/Public/RNSVG\"",
+					"\"${PODS_ROOT}/Headers/Public/RNScreens\"",
+					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder\"",
+					"\"${PODS_ROOT}/Headers/Public/TOCropViewController\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/YogaKit\"",
+					"\"${PODS_ROOT}/Headers/Public/abseil\"",
+					"\"${PODS_ROOT}/Headers/Public/gRPC-C++\"",
+					"\"${PODS_ROOT}/Headers/Public/gRPC-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/leveldb-library\"",
+					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
+					"\"${PODS_ROOT}/Headers/Public/nanopb\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-cameraroll\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-contacts\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-image-resizer\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-safe-area-context\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-splash-screen\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-text-input-mask\"",
+					"\"${PODS_ROOT}/Headers/Public/rn-fetch-blob\"",
+					"$(BUILD_DIR)/Release-$(PLATFORM_NAME)/include",
+				);
+				INFOPLIST_FILE = "Willow-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNInputMask\"",
+					"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Willow-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Stage;
+		};
+		8EB778C525DE3B0E0090862F /* Stage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81C0EBE88A973AE1ECE41CC1 /* Pods-Willow-tvOSTests.stage.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/BoringSSL-GRPC\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaAsyncSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaLibEvent\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/FBReactNativeSpec\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnostics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseFirestore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstallations\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Glog\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-PeerTalk\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-RSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/FlipperKit\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenSSL-Universal\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-AppTrackingTransparency\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Camera\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Contacts\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-FaceID\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationAccuracy\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationAlways\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-LocationWhenInUse\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-MediaLibrary\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Microphone\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Motion\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-Notifications\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-PhotoLibrary\"",
+					"\"${PODS_ROOT}/Headers/Public/Permission-PhotoLibraryAddOnly\"",
+					"\"${PODS_ROOT}/Headers/Public/PromisesObjC\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCClipboard\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCMaskedView\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBApp\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBFirestore\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFastImage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNGestureHandler\"",
+					"\"${PODS_ROOT}/Headers/Public/RNImageCropPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNInputMask\"",
+					"\"${PODS_ROOT}/Headers/Public/RNPermissions\"",
+					"\"${PODS_ROOT}/Headers/Public/RNReanimated\"",
+					"\"${PODS_ROOT}/Headers/Public/RNSVG\"",
+					"\"${PODS_ROOT}/Headers/Public/RNScreens\"",
+					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder\"",
+					"\"${PODS_ROOT}/Headers/Public/TOCropViewController\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/YogaKit\"",
+					"\"${PODS_ROOT}/Headers/Public/abseil\"",
+					"\"${PODS_ROOT}/Headers/Public/gRPC-C++\"",
+					"\"${PODS_ROOT}/Headers/Public/gRPC-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/leveldb-library\"",
+					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
+					"\"${PODS_ROOT}/Headers/Public/nanopb\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-cameraroll\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-contacts\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-image-resizer\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-safe-area-context\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-splash-screen\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-text-input-mask\"",
+					"\"${PODS_ROOT}/Headers/Public/rn-fetch-blob\"",
+					"$(BUILD_DIR)/Release-$(PLATFORM_NAME)/include",
+				);
+				INFOPLIST_FILE = "Willow-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+					"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Willow-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Willow-tvOS.app/Willow-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Stage;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WillowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+				8EB778C325DE3B0E0090862F /* Stage */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Willow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+				8EB778C225DE3B0E0090862F /* Stage */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Willow-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+				8EB778C425DE3B0E0090862F /* Stage */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Willow-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+				8EB778C525DE3B0E0090862F /* Stage */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Willow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+				8EB778C125DE3B0E0090862F /* Stage */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

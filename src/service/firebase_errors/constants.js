@@ -1,0 +1,16 @@
+export const UNREGISTERED_PHONE_NUMBER = 'auth/unregistered-phone-number';
+export const TOO_MANY_REQUESTS = 'auth/too-many-requests';
+export const USER_DISABLED = 'auth/user-disabled';
+export const INVALID_PHONE_NUMBER = 'auth/invalid-phone-number';
+export const MISSING_PHONE_NUMBER = 'auth/missing-phone-number';
+export const UNAVAILABLE_PHONE_NUMBER = 'auth/unavailable-phone-number';
+export const UNAVAILABLE_USERNAME = 'auth/unavailable-username';
+export const INVALID_VERIFICATION_CODE = 'auth/invalid-verification-code';
+export const INVALID_EMAIL = 'auth/invalid-email';
+export const INVALID_ARGUMENTS = 'firestore/invalid-arguments';
+export const MISSING_FILENAME = 'storage/missing-filename';
+export const INVALID_USERNAME = 'auth/invalid-username';
+export const NOT_AUTHENTICATED = 'auth/not-authenticated';
+export const DATABASE_ERROR = 'firestore/database-error';
+export const NOT_FOUND = 'firestore/not-found';
+export const SERVER_ERROR = 'firestore/server-error';

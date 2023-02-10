@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>202476270046-4s3gnrs8c42p1s030osmjheqep9k4nfd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.202476270046-4s3gnrs8c42p1s030osmjheqep9k4nfd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAuv7qDENbcIQkXdNxmraCF6-vOQYNhw9E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>202476270046</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.willowparenting.willow</string>
+	<key>PROJECT_ID</key>
+	<string>willow-production-84df7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>willow-production-84df7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:202476270046:ios:609d51215835f10927ed4f</string>
+	<key>DATABASE_URL</key>
+	<string>https://willow-production-84df7.firebaseio.com</string>
+</dict>
+</plist>
